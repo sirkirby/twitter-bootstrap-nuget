@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>2.0.1</version>
+    <authors>Jacob Thornton,Mark Otto</authors>
+    <owners>Twitter</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://twitter.github.com/bootstrap/</projectUrl>
+    <iconUrl>https://github.com/twitter/bootstrap/raw/master/docs/assets/img/bird.png</iconUrl>
+    <id>Twitter.Bootstrap</id>
+    <title>Bootstrap, from Twitter</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bootstrap is Twitter's toolkit for kickstarting CSS for websites, apps, and more. It includes base CSS styles for typography, forms, buttons, tables, grids, navigation, alerts, and more.</description>
+    <summary>Copyright 2012 Twitter, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.</summary>
+    <releaseNotes>Previously the docs called for use of .control-label in the examples, but the CSS didn't make clear use of it. This class is required for horizontal forms and has been reflected in the CSS.
+We've tried our best to improve rendering of buttons and icons across all browsers. Some issues remain; Firefox throws an !importanton line-height for inputs, so that's the big one.
+We refined the label component style to move away from uppercase.
+Added the black button option, .btn-inverse.
+Added a mini button class, .btn-mini.
+We had to re-add the protocol, http: to the HTML5 schim because IE7-8 wouldn't recognize it, dropping some HTML5 support for those browsers and introducing major performance issues.
+Resolved some issues with responsive layouts where media queries would overlap at 768px and 980px.
+Rearranged Scaffolding docs page to split fixed and fluid grid systems.
+Tons of docs updates for typos and language changes.</releaseNotes>
+    <language>en-US</language>
+    <tags>twitter, css, css3, html, html5, less, ui, jquery, ender</tags>
+  </metadata>
+  <files>
+    <file src="glyphicons-halflings-white.png" target="content\Content\images\glyphicons-halflings-white.png" />
+    <file src="glyphicons-halflings.png" target="content\Content\images\glyphicons-halflings.png" />
+    <file src="bootstrap-responsive.css" target="content\Content\bootstrap-responsive.css" />
+    <file src="bootstrap-responsive.min.css" target="content\Content\bootstrap-responsive.min.css" />
+    <file src="bootstrap.css" target="content\Content\bootstrap.css" />
+    <file src="bootstrap.min.css" target="content\Content\bootstrap.min.css" />
+    <file src="bootstrap.js" target="content\Scripts\bootstrap.js" />
+    <file src="bootstrap.min.js" target="content\Scripts\bootstrap.min.js" />
+  </files>
+</package>
