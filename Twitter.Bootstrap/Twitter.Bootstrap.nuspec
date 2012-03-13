@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>2.0.1</version>
+    <version>2.0.2</version>
     <authors>Jacob Thornton,Mark Otto</authors>
     <owners>Twitter</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -15,15 +15,19 @@
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-    <releaseNotes>Previously the docs called for use of .control-label in the examples, but the CSS didn't make clear use of it. This class is required for horizontal forms and has been reflected in the CSS.
-We've tried our best to improve rendering of buttons and icons across all browsers. Some issues remain; Firefox throws an !importanton line-height for inputs, so that's the big one.
-We refined the label component style to move away from uppercase.
-Added the black button option, .btn-inverse.
-Added a mini button class, .btn-mini.
-We had to re-add the protocol, http: to the HTML5 schim because IE7-8 wouldn't recognize it, dropping some HTML5 support for those browsers and introducing major performance issues.
-Resolved some issues with responsive layouts where media queries would overlap at 768px and 980px.
-Rearranged Scaffolding docs page to split fixed and fluid grid systems.
-Tons of docs updates for typos and language changes.</releaseNotes>
+    <releaseNotes>Horizontal dividers support added to nav lists
+Added basic version of badges
+Added visible/hidden classes for devices
+Added support for buttons in input-prepend/append component
+Added .navbar-fixed-bottom support
+Added .dropup support for dropdown menus to pop them upward instead of downward (this is automatically done for the newly added fixed bottom navbar).
+Added mixin for new image replacement technique
+Added pause on hover for the carousel
+Added tons of new variables for typography, buttons, forms, dropdowns, navbar, and more for the LESS pros out there. These variables have also been reflected on the Customize page.
+Added new horizontal description list variation
+Added .disabled class support to the pager component (also added a mention of this to the docs)
+Added .well-large and .well-small classes for extending the well component
+Full changelog at https://github.com/twitter/bootstrap/wiki/Changelog</releaseNotes>
     <language>en-US</language>
     <tags>twitter, css, css3, html, html5, less, ui, jquery, ender</tags>
   </metadata>
