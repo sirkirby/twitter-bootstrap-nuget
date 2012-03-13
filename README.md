@@ -4,7 +4,7 @@ All package content files are based on officially released source from the twitt
 
 Versioning
 ----------
-All release versions correspond with the bootstrap repo's <major>.<minor>.<patch> semantic format.
+All release versions correspond with the bootstrap repo's `<major>.<minor>.<patch>` semantic format.
 
 License
 ---------------------

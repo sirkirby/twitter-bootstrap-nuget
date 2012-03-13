@@ -5,4 +5,4 @@ http://nuget.org/packages/Twitter.Bootstrap
 
 Installing
 ----------
-'PM> install-package Twitter.Bootstrap'
+`PM> install-package Twitter.Bootstrap`

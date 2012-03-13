@@ -5,4 +5,4 @@ http://nuget.org/packages/Twitter.Bootstrap.Less
 
 Installing
 ----------
-'PM> install-package Twitter.Bootstrap.Less'
+`PM> install-package Twitter.Bootstrap.Less`
