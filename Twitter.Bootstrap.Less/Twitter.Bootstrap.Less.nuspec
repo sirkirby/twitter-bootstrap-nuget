@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>2.0.1</version>
+    <version>2.0.2</version>
     <authors>Jacob Thornton,Mark Otto</authors>
     <owners>Twitter</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -19,8 +19,8 @@ less.js provided by http://lesscss.org/</description>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-    <releaseNotes>- Updated source files to v2.0.1 release.
-- Also including the latest version of less.js, v1.2.1 from http://lesscss.org/</releaseNotes>
+    <releaseNotes>- Updated source files to v2.0.2 release.
+- Also including the latest version of less.js, v1.3.0 from http://lesscss.org/ . Previous versions will not work with this release.</releaseNotes>
     <language>en-US</language>
     <tags>twitter, less, css, css3, html5</tags>
   </metadata>
