@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>2.0.2</version>
+    <version>2.0.2.1</version>
     <authors>Jacob Thornton,Mark Otto</authors>
     <owners>Twitter</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -27,6 +27,7 @@ you may not use this file except in compliance with the License.</summary>
   <files>
     <file src="accordion.less" target="content\Content\less\accordion.less" />
     <file src="alerts.less" target="content\Content\less\alerts.less" />
+    <file src="badges.less" target="content\Content\less\badges.less" />
     <file src="bootstrap.less" target="content\Content\less\bootstrap.less" />
     <file src="breadcrumbs.less" target="content\Content\less\breadcrumbs.less" />
     <file src="button-groups.less" target="content\Content\less\button-groups.less" />
