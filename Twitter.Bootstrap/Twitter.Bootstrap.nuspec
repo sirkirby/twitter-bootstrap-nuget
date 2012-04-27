@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
     <authors>Jacob Thornton,Mark Otto</authors>
     <owners>Twitter</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -10,24 +10,12 @@
     <id>Twitter.Bootstrap</id>
     <title>Bootstrap, from Twitter</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Bootstrap is Twitter's toolkit for kickstarting CSS for websites, apps, and more. It includes base CSS styles for typography, forms, buttons, tables, grids, navigation, alerts, and more.</description>
+    <description>Bootstrap is a front-end toolkit from Twitter designed to kickstart development of webapps and sites, featuring simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions</description>
     <summary>Copyright 2012 Twitter, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-    <releaseNotes>Horizontal dividers support added to nav lists
-Added basic version of badges
-Added visible/hidden classes for devices
-Added support for buttons in input-prepend/append component
-Added .navbar-fixed-bottom support
-Added .dropup support for dropdown menus to pop them upward instead of downward (this is automatically done for the newly added fixed bottom navbar).
-Added mixin for new image replacement technique
-Added pause on hover for the carousel
-Added tons of new variables for typography, buttons, forms, dropdowns, navbar, and more for the LESS pros out there. These variables have also been reflected on the Customize page.
-Added new horizontal description list variation
-Added .disabled class support to the pager component (also added a mention of this to the docs)
-Added .well-large and .well-small classes for extending the well component
-Full changelog at https://github.com/twitter/bootstrap/wiki/Changelog</releaseNotes>
+    <releaseNotes>https://github.com/twitter/bootstrap/wiki/Changelog</releaseNotes>
     <language>en-US</language>
     <tags>twitter, css, css3, html, html5, less, ui, jquery, ender</tags>
   </metadata>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>2.0.2.1</version>
+    <version>2.0.3</version>
     <authors>Jacob Thornton,Mark Otto</authors>
     <owners>Twitter</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -10,24 +10,20 @@
     <id>Twitter.Bootstrap.Less</id>
     <title>Bootstrap, from Twitter Less Source</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.
-
-Nerd alert: Bootstrap is built with Less and was designed to work out of the gate with modern browsers in mind.
+    <description>Bootstrap is a front-end toolkit from Twitter designed to kickstart development of webapps and sites, featuring simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.
 
 less.js provided by http://lesscss.org/</description>
     <summary>Copyright 2012 Twitter, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-    <releaseNotes>- Updated source files to v2.0.2 release.
-- Also including the latest version of less.js, v1.3.0 from http://lesscss.org/ . Previous versions will not work with this release.</releaseNotes>
+    <releaseNotes>https://github.com/twitter/bootstrap/wiki/Changelog</releaseNotes>
     <language>en-US</language>
-    <tags>twitter, less, css, css3, html5</tags>
+    <tags>twitter, less, css, css3, html5, bootstrap, responsive</tags>
   </metadata>
   <files>
     <file src="accordion.less" target="content\Content\less\accordion.less" />
     <file src="alerts.less" target="content\Content\less\alerts.less" />
-    <file src="badges.less" target="content\Content\less\badges.less" />
     <file src="bootstrap.less" target="content\Content\less\bootstrap.less" />
     <file src="breadcrumbs.less" target="content\Content\less\breadcrumbs.less" />
     <file src="button-groups.less" target="content\Content\less\button-groups.less" />
@@ -40,7 +36,7 @@ you may not use this file except in compliance with the License.</summary>
     <file src="forms.less" target="content\Content\less\forms.less" />
     <file src="grid.less" target="content\Content\less\grid.less" />
     <file src="hero-unit.less" target="content\Content\less\hero-unit.less" />
-    <file src="labels.less" target="content\Content\less\labels.less" />
+    <file src="labels-badges.less" target="content\Content\less\labels-badges.less" />
     <file src="layouts.less" target="content\Content\less\layouts.less" />
     <file src="mixins.less" target="content\Content\less\mixins.less" />
     <file src="modals.less" target="content\Content\less\modals.less" />
@@ -51,6 +47,11 @@ you may not use this file except in compliance with the License.</summary>
     <file src="popovers.less" target="content\Content\less\popovers.less" />
     <file src="progress-bars.less" target="content\Content\less\progress-bars.less" />
     <file src="reset.less" target="content\Content\less\reset.less" />
+    <file src="responsive-1200px-min.less" target="content\Content\less\responsive-1200px-min.less" />
+    <file src="responsive-767px-max.less" target="content\Content\less\responsive-767px-max.less" />
+    <file src="responsive-768px-979px.less" target="content\Content\less\responsive-768px-979px.less" />
+    <file src="responsive-navbar.less" target="content\Content\less\responsive-navbar.less" />
+    <file src="responsive-utilities.less" target="content\Content\less\responsive-utilities.less" />
     <file src="responsive.less" target="content\Content\less\responsive.less" />
     <file src="scaffolding.less" target="content\Content\less\scaffolding.less" />
     <file src="sprites.less" target="content\Content\less\sprites.less" />
