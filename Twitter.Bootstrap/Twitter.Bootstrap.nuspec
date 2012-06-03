@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>2.0.4</version>
+    <version>2.0.4.1</version>
     <authors>Jacob Thornton,Mark Otto</authors>
     <owners>Twitter</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -15,11 +15,14 @@
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-    <releaseNotes>https://github.com/twitter/bootstrap/wiki/Changelog</releaseNotes>
+    <releaseNotes>https://github.com/twitter/bootstrap/wiki/Changelog
+- refresh update to include missing glyphicons</releaseNotes>
     <language>en-US</language>
     <tags>twitter, css, css3, html, html5, less, ui, jquery, ender</tags>
   </metadata>
   <files>
+    <file src="glyphicons-halflings-white.png" target="content\Content\images\glyphicons-halflings-white.png" />
+    <file src="glyphicons-halflings.png" target="content\Content\images\glyphicons-halflings.png" />
     <file src="bootstrap-responsive.css" target="content\Content\bootstrap-responsive.css" />
     <file src="bootstrap-responsive.min.css" target="content\Content\bootstrap-responsive.min.css" />
     <file src="bootstrap.css" target="content\Content\bootstrap.css" />
