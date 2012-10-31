@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.Less</id>
-        <version>2.2.0</version>
+        <version>2.2.1</version>
         <title>Bootstrap Less Source</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners />
@@ -17,7 +17,10 @@ less.js provided by http://lesscss.org/</description>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-        <releaseNotes>https://github.com/twitter/bootstrap/wiki/Changelog</releaseNotes>
+        <releaseNotes>https://github.com/twitter/bootstrap/wiki/Changelog
+
+-hotfix
+- added missing media.less</releaseNotes>
         <language>en-US</language>
         <tags>twitter, less, css, css3, html5, bootstrap, responsive</tags>
     </metadata>
@@ -40,6 +43,7 @@ you may not use this file except in compliance with the License.</summary>
         <file src="hero-unit.less" target="content\Content\less\hero-unit.less" />
         <file src="labels-badges.less" target="content\Content\less\labels-badges.less" />
         <file src="layouts.less" target="content\Content\less\layouts.less" />
+        <file src="media.less" target="content\Content\less\media.less" />
         <file src="mixins.less" target="content\Content\less\mixins.less" />
         <file src="modals.less" target="content\Content\less\modals.less" />
         <file src="navbar.less" target="content\Content\less\navbar.less" />
