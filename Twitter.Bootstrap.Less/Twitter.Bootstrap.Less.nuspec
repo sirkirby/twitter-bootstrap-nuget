@@ -19,7 +19,9 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
         <releaseNotes>https://github.com/twitter/bootstrap/wiki/Changelog
 
-http://blog.getbootstrap.com/2012/12/08/bootstrap-2-2-2-released/</releaseNotes>
+http://blog.getbootstrap.com/2012/12/08/bootstrap-2-2-2-released/
+
+- fixed glyph image reference in variables.less</releaseNotes>
         <language>en-US</language>
         <tags>twitter, less, css, css3, html5, bootstrap, responsive</tags>
     </metadata>
