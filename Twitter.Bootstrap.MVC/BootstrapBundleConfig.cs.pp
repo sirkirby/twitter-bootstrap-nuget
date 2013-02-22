@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-[assembly: WebActivator.PostApplicationStartMethod(typeof($rootnamespace$.App_Start.BootstrapBundleConfig), "RegisterBundles")]
+[assembly: WebActivatorEx.PostApplicationStartMethod(typeof($rootnamespace$.App_Start.BootstrapBundleConfig), "RegisterBundles")]
 
 namespace $rootnamespace$.App_Start
 {
