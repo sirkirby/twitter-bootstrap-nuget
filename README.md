@@ -8,6 +8,6 @@ All release versions correspond with the bootstrap repo's `<major>.<minor>.<patc
 
 License
 ---------------------
-* For this repo: [LICENSE.txt](https://github.com/sirkirby/twitter-bootstrap-nuget/blob/master/LICENSE.txt)
+* For this repo: http://opensource.org/licenses/MIT
 * For Bootstrap: http://www.apache.org/licenses/LICENSE-2.0
 * For bootstrap source see https://github.com/twitter/bootstrap/blob/master/README.md
