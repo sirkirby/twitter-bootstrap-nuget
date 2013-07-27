@@ -1,80 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.Less</id>
-        <version>2.3.2.1</version>
+        <version>3.0.0-rc1</version>
         <title>Bootstrap Less Source</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
         <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-        <projectUrl>http://twitter.github.com/bootstrap/</projectUrl>
+        <projectUrl>http://getbootstrap.com</projectUrl>
         <iconUrl>https://raw.github.com/twitter/bootstrap/master/docs/assets/ico/apple-touch-icon-72-precomposed.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Sleek, intuitive, and powerful front-end framework for faster and easier web development. Issues? Please post them here https://github.com/sirkirby/twitter-bootstrap-nuget/issues
-
-less.js provided by http://lesscss.org/</description>
-        <summary>Copyright 2013 Twitter, Inc.
+        <description>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. Package issues? Please post them here https://github.com/sirkirby/twitter-bootstrap-nuget/issues</description>
+        <summary>Copyright 2012 Twitter, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-        <releaseNotes>https://github.com/twitter/bootstrap/wiki/Changelog
-
-- fixed issue with variables.less glyph reference.
-
-http://blog.getbootstrap.com/2013/05/17/bootstrap-2-3-2-released/
-less.js update to 1.3.3. release</releaseNotes>
+        <releaseNotes>http://blog.getbootstrap.com/2013/07/27/bootstrap-3-rc1/</releaseNotes>
         <language>en-US</language>
-        <tags>twitter less css css3 html5 bootstrap responsive</tags>
+        <tags>twitter less css css3 html5 bootstrap responsive less</tags>
         <dependencies>
             <dependency id="jQuery" version="1.9.1" />
         </dependencies>
     </metadata>
     <files>
-        <file src="glyphicons-halflings-white.png" target="content\Content\images\glyphicons-halflings-white.png" />
-        <file src="glyphicons-halflings.png" target="content\Content\images\glyphicons-halflings.png" />
-        <file src="accordion.less" target="content\Content\less\accordion.less" />
-        <file src="alerts.less" target="content\Content\less\alerts.less" />
-        <file src="bootstrap.less" target="content\Content\less\bootstrap.less" />
-        <file src="breadcrumbs.less" target="content\Content\less\breadcrumbs.less" />
-        <file src="button-groups.less" target="content\Content\less\button-groups.less" />
-        <file src="buttons.less" target="content\Content\less\buttons.less" />
-        <file src="carousel.less" target="content\Content\less\carousel.less" />
-        <file src="close.less" target="content\Content\less\close.less" />
-        <file src="code.less" target="content\Content\less\code.less" />
-        <file src="component-animations.less" target="content\Content\less\component-animations.less" />
-        <file src="dropdowns.less" target="content\Content\less\dropdowns.less" />
-        <file src="forms.less" target="content\Content\less\forms.less" />
-        <file src="grid.less" target="content\Content\less\grid.less" />
-        <file src="hero-unit.less" target="content\Content\less\hero-unit.less" />
-        <file src="labels-badges.less" target="content\Content\less\labels-badges.less" />
-        <file src="layouts.less" target="content\Content\less\layouts.less" />
-        <file src="media.less" target="content\Content\less\media.less" />
-        <file src="mixins.less" target="content\Content\less\mixins.less" />
-        <file src="modals.less" target="content\Content\less\modals.less" />
-        <file src="navbar.less" target="content\Content\less\navbar.less" />
-        <file src="navs.less" target="content\Content\less\navs.less" />
-        <file src="pager.less" target="content\Content\less\pager.less" />
-        <file src="pagination.less" target="content\Content\less\pagination.less" />
-        <file src="popovers.less" target="content\Content\less\popovers.less" />
-        <file src="progress-bars.less" target="content\Content\less\progress-bars.less" />
-        <file src="reset.less" target="content\Content\less\reset.less" />
-        <file src="responsive-1200px-min.less" target="content\Content\less\responsive-1200px-min.less" />
-        <file src="responsive-767px-max.less" target="content\Content\less\responsive-767px-max.less" />
-        <file src="responsive-768px-979px.less" target="content\Content\less\responsive-768px-979px.less" />
-        <file src="responsive-navbar.less" target="content\Content\less\responsive-navbar.less" />
-        <file src="responsive-utilities.less" target="content\Content\less\responsive-utilities.less" />
-        <file src="responsive.less" target="content\Content\less\responsive.less" />
-        <file src="scaffolding.less" target="content\Content\less\scaffolding.less" />
-        <file src="sprites.less" target="content\Content\less\sprites.less" />
-        <file src="tables.less" target="content\Content\less\tables.less" />
-        <file src="thumbnails.less" target="content\Content\less\thumbnails.less" />
-        <file src="tooltip.less" target="content\Content\less\tooltip.less" />
-        <file src="type.less" target="content\Content\less\type.less" />
-        <file src="utilities.less" target="content\Content\less\utilities.less" />
-        <file src="variables.less" target="content\Content\less\variables.less" />
-        <file src="wells.less" target="content\Content\less\wells.less" />
+        <file src="accordion.less" target="content\Content\bootstrap\accordion.less" />
+        <file src="alerts.less" target="content\Content\bootstrap\alerts.less" />
+        <file src="badges.less" target="content\Content\bootstrap\badges.less" />
+        <file src="bootstrap.less" target="content\Content\bootstrap\bootstrap.less" />
+        <file src="breadcrumbs.less" target="content\Content\bootstrap\breadcrumbs.less" />
+        <file src="button-groups.less" target="content\Content\bootstrap\button-groups.less" />
+        <file src="buttons.less" target="content\Content\bootstrap\buttons.less" />
+        <file src="carousel.less" target="content\Content\bootstrap\carousel.less" />
+        <file src="close.less" target="content\Content\bootstrap\close.less" />
+        <file src="code.less" target="content\Content\bootstrap\code.less" />
+        <file src="component-animations.less" target="content\Content\bootstrap\component-animations.less" />
+        <file src="dropdowns.less" target="content\Content\bootstrap\dropdowns.less" />
+        <file src="forms.less" target="content\Content\bootstrap\forms.less" />
+        <file src="grid.less" target="content\Content\bootstrap\grid.less" />
+        <file src="jumbotron.less" target="content\Content\bootstrap\jumbotron.less" />
+        <file src="labels.less" target="content\Content\bootstrap\labels.less" />
+        <file src="list-group.less" target="content\Content\bootstrap\list-group.less" />
+        <file src="media.less" target="content\Content\bootstrap\media.less" />
+        <file src="mixins.less" target="content\Content\bootstrap\mixins.less" />
+        <file src="modals.less" target="content\Content\bootstrap\modals.less" />
+        <file src="navbar.less" target="content\Content\bootstrap\navbar.less" />
+        <file src="navs.less" target="content\Content\bootstrap\navs.less" />
+        <file src="normalize.less" target="content\Content\bootstrap\normalize.less" />
+        <file src="pager.less" target="content\Content\bootstrap\pager.less" />
+        <file src="pagination.less" target="content\Content\bootstrap\pagination.less" />
+        <file src="panels.less" target="content\Content\bootstrap\panels.less" />
+        <file src="popovers.less" target="content\Content\bootstrap\popovers.less" />
+        <file src="print.less" target="content\Content\bootstrap\print.less" />
+        <file src="progress-bars.less" target="content\Content\bootstrap\progress-bars.less" />
+        <file src="responsive-utilities.less" target="content\Content\bootstrap\responsive-utilities.less" />
+        <file src="scaffolding.less" target="content\Content\bootstrap\scaffolding.less" />
+        <file src="tables.less" target="content\Content\bootstrap\tables.less" />
+        <file src="thumbnails.less" target="content\Content\bootstrap\thumbnails.less" />
+        <file src="tooltip.less" target="content\Content\bootstrap\tooltip.less" />
+        <file src="type.less" target="content\Content\bootstrap\type.less" />
+        <file src="utilities.less" target="content\Content\bootstrap\utilities.less" />
+        <file src="variables.less" target="content\Content\bootstrap\variables.less" />
+        <file src="wells.less" target="content\Content\bootstrap\wells.less" />
         <file src="bootstrap.js" target="content\Scripts\bootstrap.js" />
         <file src="bootstrap.min.js" target="content\Scripts\bootstrap.min.js" />
-        <file src="less.min.js" target="content\Scripts\less.min.js" />
+        <file src="less-1.4.1.min.js" target="content\Scripts\less-1.4.1.min.js" />
     </files>
 </package>
