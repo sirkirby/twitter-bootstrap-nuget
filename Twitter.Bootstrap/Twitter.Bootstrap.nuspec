@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap</id>
-        <version>3.0.0-rc1</version>
+        <version>3.0.0-rc1x</version>
         <title>Bootstrap</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
@@ -23,8 +23,14 @@ you may not use this file except in compliance with the License.</summary>
         </dependencies>
     </metadata>
     <files>
-        <file src="bootstrap.css" target="content\Content\bootstrap.css" />
-        <file src="bootstrap.min.css" target="content\Content\bootstrap.min.css" />
+        <file src="bootstrap-glyphicons.css" target="content\Content\bootstrap\bootstrap-glyphicons.css" />
+        <file src="bootstrap.css" target="content\Content\bootstrap\bootstrap.css" />
+        <file src="bootstrap.min.css" target="content\Content\bootstrap\bootstrap.min.css" />
+        <file src="glyphiconshalflings-regular.eot" target="content\Content\fonts\glyphiconshalflings-regular.eot" />
+        <file src="glyphiconshalflings-regular.otf" target="content\Content\fonts\glyphiconshalflings-regular.otf" />
+        <file src="glyphiconshalflings-regular.svg" target="content\Content\fonts\glyphiconshalflings-regular.svg" />
+        <file src="glyphiconshalflings-regular.ttf" target="content\Content\fonts\glyphiconshalflings-regular.ttf" />
+        <file src="glyphiconshalflings-regular.woff" target="content\Content\fonts\glyphiconshalflings-regular.woff" />
         <file src="bootstrap.js" target="content\Scripts\bootstrap.js" />
         <file src="bootstrap.min.js" target="content\Scripts\bootstrap.min.js" />
     </files>

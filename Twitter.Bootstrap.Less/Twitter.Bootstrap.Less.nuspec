@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.Less</id>
-        <version>3.0.0-rc1</version>
+        <version>3.0.0-rc1x</version>
         <title>Bootstrap Less Source</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
@@ -17,7 +17,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
         <releaseNotes>http://blog.getbootstrap.com/2013/07/27/bootstrap-3-rc1/</releaseNotes>
         <language>en-US</language>
-        <tags>twitter less css css3 html5 bootstrap responsive less</tags>
+        <tags>twitter less css css3 html5 bootstrap responsive</tags>
         <dependencies>
             <dependency id="jQuery" version="1.9.1" />
         </dependencies>
@@ -26,6 +26,7 @@ you may not use this file except in compliance with the License.</summary>
         <file src="accordion.less" target="content\Content\bootstrap\accordion.less" />
         <file src="alerts.less" target="content\Content\bootstrap\alerts.less" />
         <file src="badges.less" target="content\Content\bootstrap\badges.less" />
+        <file src="bootstrap-glyphicons.less" target="content\Content\bootstrap\bootstrap-glyphicons.less" />
         <file src="bootstrap.less" target="content\Content\bootstrap\bootstrap.less" />
         <file src="breadcrumbs.less" target="content\Content\bootstrap\breadcrumbs.less" />
         <file src="button-groups.less" target="content\Content\bootstrap\button-groups.less" />
@@ -61,6 +62,11 @@ you may not use this file except in compliance with the License.</summary>
         <file src="utilities.less" target="content\Content\bootstrap\utilities.less" />
         <file src="variables.less" target="content\Content\bootstrap\variables.less" />
         <file src="wells.less" target="content\Content\bootstrap\wells.less" />
+        <file src="glyphiconshalflings-regular.eot" target="content\Content\fonts\glyphiconshalflings-regular.eot" />
+        <file src="glyphiconshalflings-regular.otf" target="content\Content\fonts\glyphiconshalflings-regular.otf" />
+        <file src="glyphiconshalflings-regular.svg" target="content\Content\fonts\glyphiconshalflings-regular.svg" />
+        <file src="glyphiconshalflings-regular.ttf" target="content\Content\fonts\glyphiconshalflings-regular.ttf" />
+        <file src="glyphiconshalflings-regular.woff" target="content\Content\fonts\glyphiconshalflings-regular.woff" />
         <file src="bootstrap.js" target="content\Scripts\bootstrap.js" />
         <file src="bootstrap.min.js" target="content\Scripts\bootstrap.min.js" />
         <file src="less-1.4.1.min.js" target="content\Scripts\less-1.4.1.min.js" />
