@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.MVC</id>
-        <version>2.0.0-rc1y</version>
+        <version>2.0.0-rc2</version>
         <title>Bootstrap for MVC 4</title>
         <authors>Chris Kirby</authors>
         <owners>sirkirby</owners>
@@ -17,7 +17,7 @@
             <dependency id="Microsoft.AspNet.Mvc" version="4.0.30506.0" />
             <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.0" />
             <dependency id="WebActivatorEx" version="2.0.2" />
-            <dependency id="Twitter.Bootstrap" version="3.0.0-rc1y" />
+            <dependency id="Twitter.Bootstrap" version="3.0.0-rc2" />
         </dependencies>
     </metadata>
     <files>

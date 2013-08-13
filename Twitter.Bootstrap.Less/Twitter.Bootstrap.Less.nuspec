@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.Less</id>
-        <version>3.0.0-rc1y</version>
+        <version>3.0.0-rc2</version>
         <title>Bootstrap Less Source</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
@@ -15,9 +15,7 @@
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-        <releaseNotes>http://blog.getbootstrap.com/2013/07/27/bootstrap-3-rc1/
-
-- minor updates to dist files after initial release.</releaseNotes>
+        <releaseNotes>http://blog.getbootstrap.com/2013/08/13/bootstrap-3-rc2/</releaseNotes>
         <language>en-US</language>
         <tags>twitter less css css3 html5 bootstrap responsive</tags>
         <dependencies>
@@ -40,6 +38,7 @@ you may not use this file except in compliance with the License.</summary>
         <file src="dropdowns.less" target="content\Content\bootstrap\dropdowns.less" />
         <file src="forms.less" target="content\Content\bootstrap\forms.less" />
         <file src="grid.less" target="content\Content\bootstrap\grid.less" />
+        <file src="input-groups.less" target="content\Content\bootstrap\input-groups.less" />
         <file src="jumbotron.less" target="content\Content\bootstrap\jumbotron.less" />
         <file src="labels.less" target="content\Content\bootstrap\labels.less" />
         <file src="list-group.less" target="content\Content\bootstrap\list-group.less" />
