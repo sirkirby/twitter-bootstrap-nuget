@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.Less</id>
-        <version>3.0.0-rc2</version>
+        <version>3.0.0</version>
         <title>Bootstrap Less Source</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
         <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
         <projectUrl>http://getbootstrap.com</projectUrl>
-        <iconUrl>https://raw.github.com/twitter/bootstrap/master/docs/assets/ico/apple-touch-icon-72-precomposed.png</iconUrl>
+        <iconUrl>http://blog.getbootstrap.com/public/ico/apple-touch-icon-144-precomposed.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. Package issues? Please post them here https://github.com/sirkirby/twitter-bootstrap-nuget/issues</description>
+        <description>Sleek, intuitive, and powerful mobile-first front-end framework for faster and easier web development. Package issues? Please post them here https://github.com/sirkirby/twitter-bootstrap-nuget/issues</description>
         <summary>Copyright 2012 Twitter, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-        <releaseNotes>http://blog.getbootstrap.com/2013/08/13/bootstrap-3-rc2/</releaseNotes>
+        <releaseNotes>http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/</releaseNotes>
         <language>en-US</language>
         <tags>twitter less css css3 html5 bootstrap responsive</tags>
         <dependencies>
@@ -23,10 +23,8 @@ you may not use this file except in compliance with the License.</summary>
         </dependencies>
     </metadata>
     <files>
-        <file src="accordion.less" target="content\Content\bootstrap\accordion.less" />
         <file src="alerts.less" target="content\Content\bootstrap\alerts.less" />
         <file src="badges.less" target="content\Content\bootstrap\badges.less" />
-        <file src="bootstrap-glyphicons.less" target="content\Content\bootstrap\bootstrap-glyphicons.less" />
         <file src="bootstrap.less" target="content\Content\bootstrap\bootstrap.less" />
         <file src="breadcrumbs.less" target="content\Content\bootstrap\breadcrumbs.less" />
         <file src="button-groups.less" target="content\Content\bootstrap\button-groups.less" />
@@ -37,6 +35,7 @@ you may not use this file except in compliance with the License.</summary>
         <file src="component-animations.less" target="content\Content\bootstrap\component-animations.less" />
         <file src="dropdowns.less" target="content\Content\bootstrap\dropdowns.less" />
         <file src="forms.less" target="content\Content\bootstrap\forms.less" />
+        <file src="glyphicons.less" target="content\Content\bootstrap\glyphicons.less" />
         <file src="grid.less" target="content\Content\bootstrap\grid.less" />
         <file src="input-groups.less" target="content\Content\bootstrap\input-groups.less" />
         <file src="jumbotron.less" target="content\Content\bootstrap\jumbotron.less" />
@@ -57,17 +56,17 @@ you may not use this file except in compliance with the License.</summary>
         <file src="responsive-utilities.less" target="content\Content\bootstrap\responsive-utilities.less" />
         <file src="scaffolding.less" target="content\Content\bootstrap\scaffolding.less" />
         <file src="tables.less" target="content\Content\bootstrap\tables.less" />
+        <file src="theme.less" target="content\Content\bootstrap\theme.less" />
         <file src="thumbnails.less" target="content\Content\bootstrap\thumbnails.less" />
         <file src="tooltip.less" target="content\Content\bootstrap\tooltip.less" />
         <file src="type.less" target="content\Content\bootstrap\type.less" />
         <file src="utilities.less" target="content\Content\bootstrap\utilities.less" />
         <file src="variables.less" target="content\Content\bootstrap\variables.less" />
         <file src="wells.less" target="content\Content\bootstrap\wells.less" />
-        <file src="glyphiconshalflings-regular.eot" target="content\Content\fonts\glyphiconshalflings-regular.eot" />
-        <file src="glyphiconshalflings-regular.otf" target="content\Content\fonts\glyphiconshalflings-regular.otf" />
-        <file src="glyphiconshalflings-regular.svg" target="content\Content\fonts\glyphiconshalflings-regular.svg" />
-        <file src="glyphiconshalflings-regular.ttf" target="content\Content\fonts\glyphiconshalflings-regular.ttf" />
-        <file src="glyphiconshalflings-regular.woff" target="content\Content\fonts\glyphiconshalflings-regular.woff" />
+        <file src="glyphicons-halflings-regular.eot" target="content\Content\fonts\glyphicons-halflings-regular.eot" />
+        <file src="glyphicons-halflings-regular.svg" target="content\Content\fonts\glyphicons-halflings-regular.svg" />
+        <file src="glyphicons-halflings-regular.ttf" target="content\Content\fonts\glyphicons-halflings-regular.ttf" />
+        <file src="glyphicons-halflings-regular.woff" target="content\Content\fonts\glyphicons-halflings-regular.woff" />
         <file src="bootstrap.js" target="content\Scripts\bootstrap.js" />
         <file src="bootstrap.min.js" target="content\Scripts\bootstrap.min.js" />
         <file src="less-1.4.1.min.js" target="content\Scripts\less-1.4.1.min.js" />

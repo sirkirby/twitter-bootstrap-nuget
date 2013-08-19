@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap</id>
-        <version>3.0.0-rc2</version>
+        <version>3.0.0</version>
         <title>Bootstrap</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
         <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-        <projectUrl>http://twbs.github.io/bootstrap/</projectUrl>
-        <iconUrl>https://raw.github.com/twitter/bootstrap/master/docs/assets/ico/apple-touch-icon-72-precomposed.png</iconUrl>
+        <projectUrl>http://getbootstrap.com/</projectUrl>
+        <iconUrl>http://blog.getbootstrap.com/public/ico/apple-touch-icon-144-precomposed.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. Package issues? Please post them here https://github.com/sirkirby/twitter-bootstrap-nuget/issues</description>
+        <description>Sleek, intuitive, and powerful mobile-first front-end framework for faster and easier web development. Package issues? Please post them here https://github.com/sirkirby/twitter-bootstrap-nuget/issues</description>
         <summary>Copyright 2012 Twitter, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-        <releaseNotes>http://blog.getbootstrap.com/2013/08/13/bootstrap-3-rc2/</releaseNotes>
+        <releaseNotes>http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/</releaseNotes>
         <language>en-US</language>
         <tags>twitter css css3 html5 less jquery bootstrap responsive</tags>
         <dependencies>
@@ -23,14 +23,14 @@ you may not use this file except in compliance with the License.</summary>
         </dependencies>
     </metadata>
     <files>
-        <file src="bootstrap-glyphicons.css" target="content\Content\bootstrap\bootstrap-glyphicons.css" />
+        <file src="bootstrap-theme.css" target="content\Content\bootstrap\bootstrap-theme.css" />
+        <file src="bootstrap-theme.min.css" target="content\Content\bootstrap\bootstrap-theme.min.css" />
         <file src="bootstrap.css" target="content\Content\bootstrap\bootstrap.css" />
         <file src="bootstrap.min.css" target="content\Content\bootstrap\bootstrap.min.css" />
-        <file src="glyphiconshalflings-regular.eot" target="content\Content\fonts\glyphiconshalflings-regular.eot" />
-        <file src="glyphiconshalflings-regular.otf" target="content\Content\fonts\glyphiconshalflings-regular.otf" />
-        <file src="glyphiconshalflings-regular.svg" target="content\Content\fonts\glyphiconshalflings-regular.svg" />
-        <file src="glyphiconshalflings-regular.ttf" target="content\Content\fonts\glyphiconshalflings-regular.ttf" />
-        <file src="glyphiconshalflings-regular.woff" target="content\Content\fonts\glyphiconshalflings-regular.woff" />
+        <file src="glyphicons-halflings-regular.eot" target="content\Content\fonts\glyphicons-halflings-regular.eot" />
+        <file src="glyphicons-halflings-regular.svg" target="content\Content\fonts\glyphicons-halflings-regular.svg" />
+        <file src="glyphicons-halflings-regular.ttf" target="content\Content\fonts\glyphicons-halflings-regular.ttf" />
+        <file src="glyphicons-halflings-regular.woff" target="content\Content\fonts\glyphicons-halflings-regular.woff" />
         <file src="bootstrap.js" target="content\Scripts\bootstrap.js" />
         <file src="bootstrap.min.js" target="content\Scripts\bootstrap.min.js" />
     </files>
