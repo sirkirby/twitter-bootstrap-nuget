@@ -1,6 +1,6 @@
 Bootstrap Nuget Packages
 =================
-All package content files are based on officially released source from the twitter/bootstrap repository https://github.com/twbs/bootstrap. 
+All package content files are based on officially released source from the twbs/bootstrap repository https://github.com/twbs/bootstrap. 
 
 Versioning
 ----------
