@@ -1,8 +1,7 @@
-Twitter.Bootstrap
+Package has moved!
 =================
-Based on the twitter/boostrap compiled source
-http://nuget.org/packages/Twitter.Bootstrap
+As of the v3.0.1 release of bootstrap all users of this package will be redirected to the new Bootstrap package that ships with Visual Studio 2013. The new package will be maintained by the Outercurve foundation just like many other popular packages on nuget, like jQuery.
 
 Installing
 ----------
-`PM> install-package Twitter.Bootstrap`
+`PM> install-package Bootstrap`
