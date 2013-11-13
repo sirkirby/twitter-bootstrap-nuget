@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.Less</id>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
         <title>Bootstrap Less Source</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
@@ -15,9 +15,7 @@
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
-        <releaseNotes>http://blog.getbootstrap.com/2013/10/29/bootstrap-3-0-1-released/
-
-- removed bundled less.js and replaced with package dependency</releaseNotes>
+        <releaseNotes>http://blog.getbootstrap.com/2013/11/06/bootstrap-3-0-2-released/</releaseNotes>
         <language>en-US</language>
         <tags>twitter less css css3 html5 bootstrap responsive</tags>
         <dependencies>
