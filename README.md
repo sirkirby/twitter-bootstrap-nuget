@@ -9,5 +9,5 @@ All release versions correspond with the bootstrap repository's `<major>.<minor>
 License
 ---------------------
 * For this repo: [License](LICENSE.txt)
-* For Bootstrap: http://www.apache.org/licenses/LICENSE-2.0
+* For Bootstrap (as of v3.1.0): http://opensource.org/licenses/MIT
 * For bootstrap source see https://github.com/twbs/bootstrap/blob/master/README.md
