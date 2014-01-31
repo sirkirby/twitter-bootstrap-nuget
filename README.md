@@ -1,10 +1,10 @@
 Bootstrap Nuget Packages
 =================
-All package content files are based on officially released source from the twbs/bootstrap repository https://github.com/twbs/bootstrap. 
+Most package content files are directly from the officially released source on the twbs/bootstrap repository https://github.com/twbs/bootstrap. 
 
 Versioning
 ----------
-All release versions correspond with the bootstrap repo's `<major>.<minor>.<patch>` semantic format.
+All release versions correspond with the bootstrap repository's `<major>.<minor>.<patch>` semantic format.
 
 License
 ---------------------
