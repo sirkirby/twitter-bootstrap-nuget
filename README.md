@@ -6,12 +6,15 @@ Most package content files are directly from the officially released source on t
 From the root directory via the command line
 
 Install the grunt cli tools globally if not already installed
+
 `npm install -g grunt-cli`
 
 Install the required modules
+
 `npm install`
 
 Build the packages to the `dist` folder for local distribution
+
 `grunt`
 
 ## Installing ##
