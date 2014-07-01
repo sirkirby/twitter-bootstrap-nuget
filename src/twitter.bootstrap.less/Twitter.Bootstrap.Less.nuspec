@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.Less</id>
-        <version>3.1.1</version>
+        <version>3.2.0</version>
         <title>Bootstrap Less Source</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
@@ -16,13 +16,12 @@
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
         <releaseNotes>- Latest source release.
-- Removed less.js dependency
 
-http://blog.getbootstrap.com/2014/02/13/bootstrap-3-1-1-released/</releaseNotes>
+http://blog.getbootstrap.com/2014/06/26/bootstrap-3-2-0-released/</releaseNotes>
         <language>en-US</language>
         <tags>twitter less css css3 html5 bootstrap responsive</tags>
         <dependencies>
-            <dependency id="jQuery" version="1.10.2" />
+            <dependency id="jQuery" version="1.9.0" />
         </dependencies>
     </metadata>
     <files>
@@ -56,6 +55,7 @@ http://blog.getbootstrap.com/2014/02/13/bootstrap-3-1-1-released/</releaseNotes>
         <file src="popovers.less" target="content\Content\bootstrap\popovers.less" />
         <file src="print.less" target="content\Content\bootstrap\print.less" />
         <file src="progress-bars.less" target="content\Content\bootstrap\progress-bars.less" />
+        <file src="responsive-embed.less" target="content\Content\bootstrap\responsive-embed.less" />
         <file src="responsive-utilities.less" target="content\Content\bootstrap\responsive-utilities.less" />
         <file src="scaffolding.less" target="content\Content\bootstrap\scaffolding.less" />
         <file src="tables.less" target="content\Content\bootstrap\tables.less" />
