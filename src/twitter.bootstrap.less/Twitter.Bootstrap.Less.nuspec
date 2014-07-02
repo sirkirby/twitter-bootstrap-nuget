@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.Less</id>
-        <version>3.2.0</version>
+        <version>3.2.0.1</version>
         <title>Bootstrap Less Source</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
@@ -16,6 +16,7 @@
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.</summary>
         <releaseNotes>- Latest source release.
+- added mixins less
 
 http://blog.getbootstrap.com/2014/06/26/bootstrap-3-2-0-released/</releaseNotes>
         <language>en-US</language>
@@ -25,6 +26,35 @@ http://blog.getbootstrap.com/2014/06/26/bootstrap-3-2-0-released/</releaseNotes>
         </dependencies>
     </metadata>
     <files>
+        <file src="mixins\alerts.less" target="content\Content\bootstrap\mixins\alerts.less" />
+        <file src="mixins\background-variant.less" target="content\Content\bootstrap\mixins\background-variant.less" />
+        <file src="mixins\border-radius.less" target="content\Content\bootstrap\mixins\border-radius.less" />
+        <file src="mixins\buttons.less" target="content\Content\bootstrap\mixins\buttons.less" />
+        <file src="mixins\center-block.less" target="content\Content\bootstrap\mixins\center-block.less" />
+        <file src="mixins\clearfix.less" target="content\Content\bootstrap\mixins\clearfix.less" />
+        <file src="mixins\forms.less" target="content\Content\bootstrap\mixins\forms.less" />
+        <file src="mixins\gradients.less" target="content\Content\bootstrap\mixins\gradients.less" />
+        <file src="mixins\grid-framework.less" target="content\Content\bootstrap\mixins\grid-framework.less" />
+        <file src="mixins\grid.less" target="content\Content\bootstrap\mixins\grid.less" />
+        <file src="mixins\hide-text.less" target="content\Content\bootstrap\mixins\hide-text.less" />
+        <file src="mixins\image.less" target="content\Content\bootstrap\mixins\image.less" />
+        <file src="mixins\labels.less" target="content\Content\bootstrap\mixins\labels.less" />
+        <file src="mixins\list-group.less" target="content\Content\bootstrap\mixins\list-group.less" />
+        <file src="mixins\nav-divider.less" target="content\Content\bootstrap\mixins\nav-divider.less" />
+        <file src="mixins\nav-vertical-align.less" target="content\Content\bootstrap\mixins\nav-vertical-align.less" />
+        <file src="mixins\opacity.less" target="content\Content\bootstrap\mixins\opacity.less" />
+        <file src="mixins\pagination.less" target="content\Content\bootstrap\mixins\pagination.less" />
+        <file src="mixins\panels.less" target="content\Content\bootstrap\mixins\panels.less" />
+        <file src="mixins\progress-bar.less" target="content\Content\bootstrap\mixins\progress-bar.less" />
+        <file src="mixins\reset-filter.less" target="content\Content\bootstrap\mixins\reset-filter.less" />
+        <file src="mixins\resize.less" target="content\Content\bootstrap\mixins\resize.less" />
+        <file src="mixins\responsive-visibility.less" target="content\Content\bootstrap\mixins\responsive-visibility.less" />
+        <file src="mixins\size.less" target="content\Content\bootstrap\mixins\size.less" />
+        <file src="mixins\tab-focus.less" target="content\Content\bootstrap\mixins\tab-focus.less" />
+        <file src="mixins\table-row.less" target="content\Content\bootstrap\mixins\table-row.less" />
+        <file src="mixins\text-emphasis.less" target="content\Content\bootstrap\mixins\text-emphasis.less" />
+        <file src="mixins\text-overflow.less" target="content\Content\bootstrap\mixins\text-overflow.less" />
+        <file src="mixins\vendor-prefixes.less" target="content\Content\bootstrap\mixins\vendor-prefixes.less" />
         <file src="alerts.less" target="content\Content\bootstrap\alerts.less" />
         <file src="badges.less" target="content\Content\bootstrap\badges.less" />
         <file src="bootstrap.less" target="content\Content\bootstrap\bootstrap.less" />
