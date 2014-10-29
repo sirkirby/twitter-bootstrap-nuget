@@ -2,23 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.Less</id>
-        <version>3.2.0.1</version>
+        <version>3.3.0</version>
         <title>Bootstrap Less Source</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
-        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>http://getbootstrap.com</projectUrl>
-        <iconUrl>http://blog.getbootstrap.com/public/ico/apple-touch-icon-144-precomposed.png</iconUrl>
+        <iconUrl>http://getbootstrap.com/apple-touch-icon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Sleek, intuitive, and powerful mobile-first front-end framework for faster and easier web development. Package issues? Please post them here https://github.com/sirkirby/twitter-bootstrap-nuget/issues</description>
-        <summary>Copyright 2012 Twitter, Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.</summary>
+        <summary>Code and documentation copyright 2011-2014 Twitter, Inc. Code released under the MIT license. Docs released under Creative Commons.</summary>
         <releaseNotes>- Latest source release.
-- added mixins less
 
-http://blog.getbootstrap.com/2014/06/26/bootstrap-3-2-0-released/</releaseNotes>
+http://blog.getbootstrap.com/2014/10/29/bootstrap-3-3-0-released/</releaseNotes>
         <language>en-US</language>
         <tags>twitter less css css3 html5 bootstrap responsive</tags>
         <dependencies>
