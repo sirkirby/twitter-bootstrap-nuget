@@ -1,5 +1,7 @@
 Bootstrap Nuget Packages
 =================
+
+[![Join the chat at https://gitter.im/sirkirby/twitter-bootstrap-nuget](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sirkirby/twitter-bootstrap-nuget?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Most package content files are directly from the officially released source on the twbs/bootstrap repository https://github.com/twbs/bootstrap.
 
 ## Build ##
