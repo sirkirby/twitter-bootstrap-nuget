@@ -2,9 +2,13 @@ Bootstrap Nuget Packages
 =================
 
 [![Join the chat at https://gitter.im/sirkirby/twitter-bootstrap-nuget](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sirkirby/twitter-bootstrap-nuget?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Most package content files are directly from the officially released source on the twbs/bootstrap repository https://github.com/twbs/bootstrap.
 
 ## Build ##
+
+![](http://build.ryantechframework.com/app/rest/builds/buildType:%28id:NugetPackages_BootstrapNuget%29/statusIcon)
+
 From the root directory via the command line
 
 Install the grunt cli tools globally if not already installed
