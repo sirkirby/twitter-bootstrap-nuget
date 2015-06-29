@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Twitter.Bootstrap.Less</id>
-        <version>3.3.4</version>
+        <version>3.3.5</version>
         <title>Bootstrap Less Source</title>
         <authors>Jacob Thornton,Mark Otto</authors>
         <owners>sirkirby</owners>
@@ -14,7 +14,7 @@
         <summary>Code and documentation copyright 2011-2014 Twitter, Inc. Code released under the MIT license. Docs released under Creative Commons.</summary>
         <releaseNotes>- Latest source release.
 
-http://blog.getbootstrap.com/2015/03/16/bootstrap-3-3-4-released/</releaseNotes>
+http://blog.getbootstrap.com/2015/06/15/bootstrap-3-3-5-released/</releaseNotes>
         <language>en-US</language>
         <tags>twitter less css css3 html5 bootstrap responsive</tags>
         <dependencies>
@@ -43,6 +43,7 @@ http://blog.getbootstrap.com/2015/03/16/bootstrap-3-3-4-released/</releaseNotes>
         <file src="mixins\panels.less" target="content\Content\bootstrap\mixins\panels.less" />
         <file src="mixins\progress-bar.less" target="content\Content\bootstrap\mixins\progress-bar.less" />
         <file src="mixins\reset-filter.less" target="content\Content\bootstrap\mixins\reset-filter.less" />
+        <file src="mixins\reset-text.less" target="content\Content\bootstrap\mixins\reset-text.less" />
         <file src="mixins\resize.less" target="content\Content\bootstrap\mixins\resize.less" />
         <file src="mixins\responsive-visibility.less" target="content\Content\bootstrap\mixins\responsive-visibility.less" />
         <file src="mixins\size.less" target="content\Content\bootstrap\mixins\size.less" />
